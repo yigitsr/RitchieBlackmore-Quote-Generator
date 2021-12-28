@@ -1,0 +1,1 @@
+# RitchieBlackmore-Quote-Generator
