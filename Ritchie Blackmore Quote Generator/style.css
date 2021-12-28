@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2em;
+    background-color: blueviolet;
+    margin-top: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.quote{
+    font-size: 2em;
+}
+
+.btn-large{
+    margin: .5em;
+    margin-left: 12rem;
+}
+
+.card{
+    text-align: center;
+    width: 45em;
+}
+
+.new-quote-button{
+    background-color: rgb(121, 24, 116);
+    border-color: rgb(71, 71, 143);
+    color: #fff;
+    border-radius: 45px;
+    width: 10em;
+    height: 3em;
+    margin: 2em;
+}
+
+#button:hover{
+    background-color: rgb(71, 71, 143);
+    border-color: rgb(121, 24, 116);
+    cursor: pointer;
+}
+
+.fa-github{
+    color: rgb(46, 5, 45);
+    font-size: 3em;
+}
+
+.fa-github:hover{
+    color: rgb(204, 94, 197);
+}
+
+.github-link{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+     top: 3.5em;
+     right: 3.5em;
+}
