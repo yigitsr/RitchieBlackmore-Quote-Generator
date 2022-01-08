@@ -1,3 +1,3 @@
 # RitchieBlackmore-Quote-Generator
 
-**Live demo:** https://ritchieblackmorequotes.netlify.app
+**Live preview:** https://ritchieblackmorequotes.netlify.app
