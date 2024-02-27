@@ -51,7 +51,18 @@ var quotes = [
 
 ]
 
+const _twBtn = document.getElementById('tweet-button')
+
 function getQuote(){
     var randomNumber = Math.floor(Math.random() * quotes.length);
-    document.getElementById('newQuoteSection').innerHTML = " * " + quotes[randomNumber] + " * " ;
+    document.getElementById('newQuoteSection').innerHTML =  " * "+ quotes[randomNumber] + " * ";
 }
+
+const _author = 'Ritchie Blackmore'
+
+function tweetQuote(){
+    const twitterURL = `https://twitter.com/intent/tweet?text=${newQuoteSection.textContent} - ${_author} `
+    window.open(twitterURL, '_blank')
+}
+
+_twBtn.addEventListener('click',tweetQuote)
